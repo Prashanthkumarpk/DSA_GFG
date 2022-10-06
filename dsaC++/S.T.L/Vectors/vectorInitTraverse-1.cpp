@@ -34,6 +34,9 @@ int main()
     
     /* v1[i] does not check array index out of bond to check use v1.at(i)
        using v[i] may lead to runtime error some times */
+     //Another traverse method
+      
+      for(auto it=v1.begin();it!=v1.end();it++) cout<<(*it)<<" ";
     
     
     return 0;
